@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Shikhsha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <img src="https://illustrations.popsy.co/amber/graduate.svg" alt="E Shiksha Logo" class="logo-image">
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">E Shiksha</span>
+                    <span class="brand-tagline">Learn. Grow. Succeed.</span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" id="closeMenu"></i>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" id="showMenu"></i>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Learn. Grow. Succeed.</h1>
+            <p>Quality education at your fingertips</p>
+            <a href="#courses" class="cta-button">View Courses</a>
+        </div>
+    </section>
+
+    <!-- Add after hero section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-target="15000">0</div>
+                <div class="stat-label">Students Enrolled</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">Expert Instructors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="100">0</div>
+                <div class="stat-label">Courses Available</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="95">0</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add floating action button -->
+    <div class="fab" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-container">
+            <button class="slider-btn prev-btn courses-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="course-slider">
+                <div class="course-track">
+                    <!-- Cards will be added by JavaScript -->
+                </div>
+            </div>
+            <button class="slider-btn next-btn courses-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="features">
+        <h2 class="section-title" data-aos="fade-up">
+            <span class="highlight">Why Choose</span> E Shikhsha?
+        </h2>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="icon-badge">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals with years of experience</p>
+                <div class="feature-hover">
+                    <span class="stat">500+ Experts</span>
+                </div>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="icon-badge">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
+                <h3>Flexible Learning</h3>
+                <p>Study at your own pace, anywhere, anytime</p>
+                <div class="feature-hover">
+                    <span class="stat">24/7 Access</span>
+                </div>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="icon-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                <h3>Certificates</h3>
+                <p>Earn industry-recognized certificates</p>
+                <div class="feature-hover">
+                    <span class="stat">100% Verified</span>
+                </div>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="icon-badge">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <h3>Practical Projects</h3>
+                <p>Build real-world projects for your portfolio</p>
+                <div class="feature-hover">
+                    <span class="stat">50+ Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>Student Testimonials</h2>
+        <div class="testimonial-container">
+            <button class="slider-btn prev-btn testimonial-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <!-- Cards will be added by JavaScript -->
+                </div>
+            </div>
+            <button class="slider-btn next-btn testimonial-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Add before contact section -->
+    <section class="blog-preview" data-aos="fade-up">
+        <h2>Latest from Our Blog</h2>
+        <div class="blog-grid">
+            <article class="blog-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Online Learning">
+                <div class="blog-content">
+                    <h3>Tips for Effective Online Learning</h3>
+                    <p>Learn how to make the most of your online education journey...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644" alt="Career Growth">
+                <div class="blog-content">
+                    <h3>Boost Your Career with Online Certifications</h3>
+                    <p>Discover how online certifications can accelerate your career...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0" alt="Study Tips">
+                <div class="blog-content">
+                    <h3>Time Management for Students</h3>
+                    <p>Master the art of balancing studies and personal life...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+        <!-- Add after features section -->
+        <section class="partners" data-aos="fade-up">
+            <h2>Trusted By</h2>
+            <div class="partners-grid">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" alt="Google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png" alt="IBM">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png" alt="Microsoft">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/2560px-Tata_Consultancy_Services_Logo.svg.png" alt="TCS">
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Add before contact section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I enroll in a course?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Simply browse our courses, select the one you're interested in, and click the "Enroll" button. Follow the registration process and make the payment to get instant access.</p>
+                </div>
+            </div>
+
+            <!-- Additional FAQ items -->
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What payment methods do you accept?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment gateway.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Are the courses self-paced?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, all our courses are self-paced. You can learn at your own convenience and access the content 24/7.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do I get a certificate upon completion?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, you'll receive a verified digital certificate upon successful completion of each course.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="background-animation">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+
+
+
+
+    <!-- Add before footer -->
+    <section class="newsletter" data-aos="fade-up">
+        <div class="newsletter-container">
+            <h2 data-aos="fade-up">Subscribe to Our Newsletter</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Stay updated with our latest courses and educational tips</p>
+            <form class="newsletter-form" data-aos="fade-up" data-aos-delay="200">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="gradient-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section brand">
+                <h3 class="footer-logo">E Shikhsha</h3>
+                <p class="tagline">Quality education at your fingertips</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +91 9971758743</p>
+                    <p><i class="fas fa-envelope"></i> srivastavasaurabh978@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ghaziabad, India</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 E Shikhsha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div class="modern-gradient"></div>
+    <div class="noise"></div>
+</body>
+</html>
