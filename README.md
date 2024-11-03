@@ -1,6 +1,6 @@
 # E Shikhsha - Online Learning Platform 🎓
 
-![E Shikhsha Logo](path-to-your-logo.png)
+
 
 ## 🌟 Overview
 
