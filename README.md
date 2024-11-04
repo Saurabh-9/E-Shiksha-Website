@@ -17,9 +17,6 @@ E Shikhsha is a modern online learning platform designed to provide quality educ
 - **Blog Integration**: Educational blog posts and resources
 - **Contact Form**: Easy way to get in touch
 
-## 🚀 Live Demo
-
-[View Live Demo](your-live-demo-link)
 
 ## 🛠️ Technologies Used
 
